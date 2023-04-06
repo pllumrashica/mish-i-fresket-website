@@ -1,0 +1,631 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:wght@200;300;400;500;600;700;800&display=swap%27");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101010;
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes icon-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+.about {
+  background-image: url(../imgs/variety-of-fresh-raw-beef-steaks-Z5ZHW98c.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+}
+
+.about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+}
+
+.about .container h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.about .container p {
+  color: white;
+}
+
+.beatiful {
+  border-bottom: 2px solid #d9a273;
+}
+
+.beatiful .container .row {
+  display: flex;
+  position: relative;
+  margin: 100px 0;
+}
+
+.beatiful .container .row .col:first-child {
+  flex-basis: 28%;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 2rem;
+  z-index: 3;
+}
+
+.beatiful .container .row .col:nth-child(2) {
+  flex-basis: 25%;
+}
+
+.beatiful .container .row .col:last-child {
+  flex-basis: 46%;
+  position: absolute;
+  left: 50%;
+}
+
+.beatiful .container .row .col:first-child .cards {
+  background-color: #400101;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.beatiful .container .row .col:nth-child(2) {
+  position: absolute;
+  z-index: -10;
+  left: 18%;
+}
+
+.beatiful .container .row .col:nth-child(2) .image {
+  width: 471px;
+  height: 605px;
+}
+
+.beatiful .container .row .col .cards {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.beatiful .container .row .col .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.beatiful .container .row .col .cards span {
+  font-weight: 600;
+  color: white;
+  font-size: 3rem;
+  position: relative;
+}
+
+.beatiful .container .row .col .cards sup {
+  color: white;
+  position: absolute;
+  font-size: 1rem;
+  color: #d9a273;
+  top: 0;
+}
+
+.beatiful .container .row .col .cards p {
+  color: white;
+  font-size: 1rem;
+}
+
+.beatiful .container .row .col .cards .row-inside {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.beatiful .container .row .col .cards .row-inside .col-inside img {
+  width: 4rem;
+}
+
+.beatiful .container .row .col .cards .row-inside .col-inside h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 1.6rem;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.beatiful .container .row .col .title {
+  font-family: "Itim", cursive;
+  color: #d9a273;
+  font-size: 1.5rem;
+}
+
+.beatiful .container .row .col h1 {
+  color: white;
+  font-size: 3.3rem;
+  margin-top: 1.5rem;
+}
+
+.beatiful .container .row .col .description {
+  color: white;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.beatiful .container .row .col .second-row-inside {
+  display: flex;
+  padding-top: 3rem;
+}
+
+.beatiful .container .row .col .second-row-inside .second-col-inside {
+  flex-basis: 50%;
+}
+
+.beatiful .container .row .col .second-row-inside .second-col-inside .row-inside-col {
+  display: flex;
+  column-gap: 10px;
+  flex-basis: 50%;
+}
+
+.beatiful .container .row .col .second-row-inside .second-col-inside .row-inside-col .col-inside-col i {
+  padding-top: 1rem;
+  color: red;
+  font-size: 3rem;
+}
+
+
+.beatiful .container .row .col .second-row-inside .second-col-inside .row-inside-col .col-inside-col .vision {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.beatiful .container .row .col .second-row-inside .second-col-inside .row-inside-col .col-inside-col p {
+  color: white;
+}
+
+.beatiful .container .row .col .second-row-inside .second-col-inside .row-inside-col .col-inside-col .mision {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.beatiful .container .row .col .owner {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.beatiful .container .row .col .col-bottom {
+  color: #d9a273;
+  padding-top: 0.5rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.our-product {
+  padding: 3rem 0;
+}
+
+.our-product .container {
+  margin-top: 5rem;
+}
+
+.our-product .container .head {
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 3rem;
+}
+
+.our-product .container .head span {
+  font-size: 1.5rem;
+  color: #d9a273;
+  font-family: "Itim", cursive;
+}
+
+.our-product .container .head h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+
+.our-product .container .head p {
+  color: white;
+  line-height: 1.5;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.our-product .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.our-product .container .row {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.our-product .container .row .col {
+  border: 1px solid #d9a273;
+  padding: 3rem;
+  line-height: 2;
+  flex-basis: 33.33%;
+  overflow: hidden;
+}
+
+.our-product .container .row .col img {
+  width: 90px;
+}
+
+.our-product .container .row .col img:hover {
+  animation-name: icon-rotate;
+  animation-duration: .5s;
+  animation-iteration-count: 1;
+}
+
+.our-product .container .row .col h1 {
+  color: white;
+}
+
+.our-product .container .row .col p {
+  color: white;
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+
+.our-product .container .row .col a {
+  text-decoration: none;
+  margin-top: 2rem;
+  color: red;
+}
+
+.our-product .container .row .col a:hover {
+  color: white;
+  transition: 0.3s ease-in;
+}
+
+.fixed-img {
+  background-image: url(../imgs/beef-on-table.jpg);
+  height: 40vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.fixed-img .container {
+  height: 40vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.fixed-img .container .row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.fixed-img .container .row .col {
+  text-align: center;
+}
+
+.fixed-img .container .row .col span {
+  font-weight: 600;
+  color: white;
+  font-size: 4rem;
+  position: relative;
+}
+
+.fixed-img .container .row .col sup {
+  color: white;
+  position: absolute;
+  font-size: 2rem;
+  color: #d9a273;
+  top: 0;
+}
+
+.fixed-img .container .row .col p {
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.awards .container .row {
+  display: flex;
+  column-gap: 100px;
+  width: 90%;
+  margin: 100px auto;
+}
+
+.awards .container .row .col {
+  line-height: 1.5;
+  flex-basis: 50%;
+}
+
+.awards .container .row .col .intro {
+  font-family: "Itim", cursive;
+  color: #d9a273;
+  font-size: 1.5rem;
+}
+
+.awards .container .row .col .title {
+  color: white;
+  font-size: 3.5rem;
+}
+
+.awards .container .row .col p {
+  color: white;
+  line-height: 1.5;
+}
+
+.awards .container .row .col .cards-row {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  margin-top: 2rem;
+}
+
+.awards .container .row .col .cards-row .cards .row-inside {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  background-color: #400101;
+  padding: 2rem 3rem;
+}
+
+.awards .container .row .col .cards-row .cards .row-inside .col-inside h1 {
+  color: white;
+}
+
+.awards .container .row .col .cards-row .cards .row-inside .col-inside i {
+  color: #d9a273;
+  font-size: 3.5rem;
+}
+
+.awards .container .row .col:last-child {
+  padding: 2rem;
+  border: 1px solid #d9a273;
+  position: relative;
+}
+
+.awards .container .row .col .image {
+  position: absolute;
+  left: -6.5%;
+}
+
+.awards .container .row .col .image img {
+  width: 95%;
+}
+
+.awards .container .row .col:last-child .parent {
+  position: absolute;
+  top: 55%;
+  width: 80%;
+}
+
+.awards .container .row .col:last-child .parent .row-wrapper .row-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px 13px 0px;
+}
+
+.awards .container .row .col:last-child .parent .row-wrapper .row-title h4 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.awards .container .row .col:last-child .parent .row-wrapper .row-title h4:last-child {
+  color: #d9a273;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.awards .container .row .col:last-child .parent .row-wrapper .row-percent {
+  display: flex;
+}
+
+.awards .container .row .col:last-child .parent .row-wrapper .row-percent .col-inside {
+  padding: 0.4rem 0rem;
+}
+
+.awards .container .row .col:last-child .parent .row-wrapper .row-percent .col-inside:first-child {
+  background-color: #d9a273;
+  flex-basis: 97%;
+}
+
+.awards .container .row .col:last-child .parent .row-wrapper .row-percent .col-inside:last-child {
+  background-color: #fff;
+  flex-basis: 3%;
+}
+
+/*  */
+.awards .container .row .col:last-child .parent .row-wrapper:nth-child(2) .row-percent .col-inside {
+  padding: 0.4rem 0rem;
+}
+
+.awards .container .row .col:last-child .parent .row-wrapper:nth-child(2) .row-percent .col-inside:first-child {
+  background-color: #d9a273;
+  flex-basis: 93%;
+}
+
+.awards .container .row .col:last-child .parent .row-wrapper:nth-child(2) .row-percent .col-inside:last-child {
+  background-color: #fff;
+  flex-basis: 7%;
+}
+
+/*  */
+.awards .container .row .col:last-child .parent .row-wrapper:nth-child(3) .row-percent .col-inside {
+  padding: 0.4rem 0rem;
+}
+
+.awards .container .row .col:last-child .parent .row-wrapper:nth-child(3) .row-percent .col-inside:first-child {
+  background-color: #d9a273;
+  flex-basis: 95%;
+}
+
+.awards .container .row .col:last-child .parent .row-wrapper:nth-child(3) .row-percent .col-inside:last-child {
+  background-color: #fff;
+  flex-basis: 5%;
+}
+
+.quotes {
+  background-image: url(../imgs/meat-markets-fridge-with-different-meat-products-UDF3BZ9.jpg);
+  height: 70vh;
+  background-attachment: fixed;
+}
+
+.quotes .container {
+  display: flex;
+  height: 70vh;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quotes .container i {
+  color: #d9a273;
+  font-size: 10rem;
+}
+
+.quotes .container h3 {
+  color: #fff;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.quotes .container h1 {
+  color: white;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.quotes .container p {
+  color: #d9a273;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.our-butcher .container {
+  width: 95%;
+  margin: 6rem auto;
+}
+
+.our-butcher .container .head-row {
+  display: flex;
+  align-items: center;
+}
+
+.our-butcher .container .head-row .head-col {
+  flex-basis: 50%;
+}
+
+.our-butcher .container .head-row .head-col span {
+  font-family: "Itim", cursive;
+  color: #d9a273;
+  font-size: 1.3rem;
+}
+
+.our-butcher .container .head-row .head-col h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  margin-top: 2rem;
+}
+
+.our-butcher .container .head-row .head-col p {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.our-butcher .container .row {
+  display: flex;
+  column-gap: 100px;
+  margin-top: 3rem;
+}
+
+.our-butcher .container .row .cards {
+  flex-basis: 25%;
+  padding: 1rem;
+  border: 1px solid #d9a273;
+  height: 359px;
+  position: relative;
+}
+
+.our-butcher .container .row .cards .move-right {
+  position: relative;
+}
+
+.our-butcher .container .row .cards .move-right img {
+  position: absolute;
+  top: 10%;
+  left: -10%;
+  width: 100%;
+  height: 359px;
+  object-fit: cover;
+}
+
+.our-butcher .container .row-title-butchers {
+  display: flex;
+  margin: 40px 0px;
+  column-gap: 100px;
+}
+
+.our-butcher .container .row-title-butchers .col {
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.our-butcher .container .row-title-butchers .col h3 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.our-butcher .container .row-title-butchers .col h4 {
+  color: #d9a273;
+  margin: 10px 0px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.our-partners {
+  background-color: #400101;
+  padding: 2rem 0;
+}
+
+.our-partners .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.our-partners .container .row {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.our-partners .container .row .col {
+  flex-basis: 16.66%;
+}
+
+.our-partners .container .row .col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
